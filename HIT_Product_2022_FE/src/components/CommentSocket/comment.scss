@@ -1,0 +1,28 @@
+.comment {
+    // display: flex;
+    // border: 1px solid;
+    // padding: 1rem 0.5rem;
+    // width: 78.6%;
+    // margin: 1rem 0;
+    // margin-left: 3rem;
+    // border-radius: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    &-user {
+        border: 1px solid;
+        border-radius: 5px;
+        width: 75%;
+        height: 6rem;
+    }
+    &-user_name {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    &-user_comment {
+        font-size: 1rem;
+    }
+}

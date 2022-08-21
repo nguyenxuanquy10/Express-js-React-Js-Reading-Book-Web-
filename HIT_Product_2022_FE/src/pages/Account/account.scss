@@ -1,0 +1,85 @@
+.linkAccount {
+    color: black;
+}
+
+.container-account {}
+
+.acount-header {}
+
+.account-info {
+    padding-top: 3rem;
+    width: 60%;
+    margin: auto;
+}
+
+.account-star {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.account-star label {
+    font-weight: bold;
+}
+
+.account-star input {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding-left: 10px;
+    height: 2.5rem;
+    background-color: rgb(221, 214, 214);
+}
+
+.account-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.account-name label {
+    font-weight: bold;
+}
+
+.account-name input {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding-left: 10px;
+    height: 2.5rem;
+    background-color: rgb(221, 214, 214);
+}
+
+.account-password {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.account-password label {
+    font-weight: bold;
+}
+
+.account-password-column {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.account-password .account-password-column input {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    height: 2.5rem;
+    background-color: rgb(221, 214, 214);
+}
+
+.account-password .account-password-column button {
+    width: 20%;
+}
+
+.confirm-password {
+    color: red;
+}

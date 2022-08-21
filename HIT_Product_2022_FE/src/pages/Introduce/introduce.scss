@@ -1,0 +1,31 @@
+.introduce {
+    padding: 50px 0;
+    &_text {
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &_socialmedia {
+        margin: 30px 0;
+        font-weight: bolder;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-icons {
+            display: flex;
+            margin-top: 30px;
+            width: 20%;
+            justify-content: space-between;
+            font-size: 40px;
+        }
+    }
+    &_info {
+        margin-top: 30px;
+        &-title {
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    }
+}

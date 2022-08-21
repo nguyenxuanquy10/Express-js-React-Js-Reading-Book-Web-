@@ -1,0 +1,20 @@
+.notfound {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 60%;
+    }
+    &_title {
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    &_text {
+        font-size: 20px;
+        margin: 20px;
+        width: 480px;
+        text-align: center;
+    }
+}

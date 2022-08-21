@@ -1,0 +1,29 @@
+.form-group {
+    margin-top: 5rem;
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+    padding: 0 19rem;
+    &_input {
+        width: 100%;
+        max-width: 100%;
+        height: 12rem;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+    &_button {
+        width: 10rem;
+        margin-top: 2rem;
+        padding: 1.5rem 1rem;
+        border-radius: 5px;
+    }
+}
+
+.title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}

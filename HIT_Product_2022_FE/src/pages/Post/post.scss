@@ -1,0 +1,14 @@
+.postContainer {
+    padding: 100px 0;
+    &-title {
+        font-weight: bold;
+        padding-bottom: 50px;
+        font-size: 30px;
+    }
+}
+
+.postContainer div img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}

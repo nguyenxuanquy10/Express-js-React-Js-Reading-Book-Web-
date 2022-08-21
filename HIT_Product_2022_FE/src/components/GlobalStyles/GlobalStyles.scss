@@ -1,0 +1,34 @@
+@import 'normalize.css';
+// import font family
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+:root {
+    --primary: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// html {
+//     font-size: 62.5%;
+// }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+// hide scrollbar
+::-webkit-scrollbar {
+    display: none;
+}
+#element::-webkit-scrollbar {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
